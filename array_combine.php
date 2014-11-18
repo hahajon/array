@@ -14,7 +14,6 @@ print_r($s);
 
 function u_array_combine(array $key, array $value) {
 	//做数组验证
-	
 	$res = array();
 	$len = count($key);
 	for($i=0; $i<$len; $i++) {
